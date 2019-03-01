@@ -15,11 +15,6 @@ public class RNMyLibraryModule extends ReactContextBaseJavaModule {
     this.reactContext = reactContext;
   }
 
-  // @Override
-  // public String getName() {
-  //   return "RNMyLibrary";
-  // }
-
   @Override
   public String getName() {
     return "RNMyLibrary";

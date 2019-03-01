@@ -12,8 +12,4 @@ public class MainActivity extends ReactActivity {
     protected String getMainComponentName() {
         return "AwesomeProject";
     }
-    @Override
-    public String getName() {
-        return "RNMyLibrary";
-    }
 }
