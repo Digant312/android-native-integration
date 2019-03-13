@@ -8,6 +8,7 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
+import com.awesomeproject.CustomToastPackage; 
 // import com.reactlibrary.RNMyLibraryPackage;
 
 import java.util.Arrays;
@@ -25,7 +26,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new RNAdMobPackage()
+            new RNAdMobPackage(),
+            new CustomToastPackage()
             // new RNMyLibraryPackage()
       );
     }
